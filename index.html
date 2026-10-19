@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      `viewport-fit=cover` so the scene runs under a notch rather than being
+      letterboxed by it; the shell pads itself back off the unsafe edges with
+      `env(safe-area-inset-*)`.
+
+      `user-scalable=no` because on a touch screen a pinch should zoom the
+      *model*, not the page. Normally this would be an accessibility fault —
+      here the entire content is a canvas you navigate by dragging and
+      pinching, and browser zoom would fight the camera for every gesture. The
+      readable text lives in panels that scroll at a fixed, legible size.
+    -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>YYY Bus Station</title>
+    <script type="module" crossorigin src="./assets/index-D37WqC-L.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+<!-- built from bus-station @ c187ce4 on 2026-10-19T18:46:40Z -->
